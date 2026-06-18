@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mohamed Abdo Amer | Software Engineer & AI Engineer</title>
+  <meta name="description" content="Professional portfolio of Mohamed Abdo Amer — Software Engineer and AI Engineer specializing in Machine Learning, Deep Learning, Computer Vision, and AI-powered applications." />
+  <meta name="author" content="Mohamed Abdo Amer" />
+  <meta property="og:title" content="Mohamed Abdo Amer | AI Engineer Portfolio" />
+  <meta property="og:description" content="AI, Machine Learning, Deep Learning, Computer Vision, Streamlit, LangChain, and real-world software projects." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page-noise"></div>
+  <div class="orb orb-one"></div>
+  <div class="orb orb-two"></div>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="brand-mark">MA</span>
+        <span class="brand-text">Mohamed Abdo</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Software Engineer · AI Engineer</p>
+          <h1>
+            Building intelligent software with
+            <span class="gradient-text">AI, vision, and data</span>.
+          </h1>
+          <p class="hero-description">
+            I am Mohamed Abdo Amer, an AI Engineer and Engineering Student based in Mansoura, Egypt.
+            I build machine learning systems, AI-powered applications, and clean user-focused software products.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="mailto:moamedmer68@gmail.com">Contact Me</a>
+            <a class="btn ghost" href="#projects">View Projects</a>
+            <a class="btn subtle" href="resume.pdf" download>Download CV</a>
+          </div>
+
+          <div class="quick-stats" aria-label="Portfolio statistics">
+            <div>
+              <strong>5+</strong>
+              <span>AI Projects</span>
+            </div>
+            <div>
+              <strong>1+</strong>
+              <span>Year Experience</span>
+            </div>
+            <div>
+              <strong>10+</strong>
+              <span>Core Skills</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-panel reveal">
+          <div class="profile-card">
+            <div class="profile-top">
+              <div class="avatar">MO</div>
+              <div>
+                <h2>Mohamed Abdo Amer</h2>
+                <p>AI Engineer · Software Engineer</p>
+              </div>
+            </div>
+
+            <div class="signal-card">
+              <span class="signal-dot"></span>
+              Available for AI & software projects
+            </div>
+
+            <div class="profile-lines">
+              <div>
+                <span>Location</span>
+                <strong>Mansoura, Egypt</strong>
+              </div>
+              <div>
+                <span>Email</span>
+                <strong>moamedmer68@gmail.com</strong>
+              </div>
+              <div>
+                <span>Focus</span>
+                <strong>ML · DL · Computer Vision</strong>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About Me</p>
+          <h2>Engineering student with a product mindset.</h2>
+        </div>
+
+        <div class="about-text reveal">
+          <p>
+            I am an AI Engineer and Engineering Student with experience in Machine Learning,
+            Deep Learning, and AI-powered application development. I enjoy building intelligent
+            systems that solve practical problems and deliver clear, usable interfaces.
+          </p>
+          <p>
+            My interests include Artificial Intelligence, Computer Vision, Retrieval-Augmented
+            Generation, Streamlit applications, and data-driven systems.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section compact">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">Technical Skills</p>
+          <h2>Tools and technologies I work with</h2>
+        </div>
+
+        <div class="skills-grid reveal" id="skillsGrid"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Projects that combine AI, software, and real-world use cases.</h2>
+        </div>
+
+        <div class="project-filters reveal" id="projectFilters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="AI">AI</button>
+          <button class="filter" data-filter="Computer Vision">Vision</button>
+          <button class="filter" data-filter="NLP">NLP</button>
+          <button class="filter" data-filter="Healthcare">Healthcare</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid"></div>
+      </div>
+    </section>
+
+    <section id="experience" class="section compact">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">Experience</p>
+          <h2>How I approach projects</h2>
+        </div>
+
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <span>01</span>
+            <div>
+              <h3>Understand the problem</h3>
+              <p>Define the user need, data source, expected output, and technical constraints.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span>02</span>
+            <div>
+              <h3>Build the AI pipeline</h3>
+              <p>Prepare data, select models, evaluate results, and package the solution cleanly.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span>03</span>
+            <div>
+              <h3>Ship a usable interface</h3>
+              <p>Create Streamlit or web applications with clear UX, clean design, and deployment readiness.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-card reveal">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something useful.</h2>
+          <p>
+            Open to AI projects, software development, collaboration, and portfolio opportunities.
+          </p>
+        </div>
+
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:moamedmer68@gmail.com">Send Email</a>
+          <a class="btn ghost" target="_blank" rel="noreferrer" href="https://github.com/moamedmer68-commits">GitHub</a>
+          <a class="btn ghost" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/mohamed-aamer055">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Mohamed Abdo Amer. All rights reserved.</p>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
