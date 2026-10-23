@@ -65,6 +65,17 @@ const projects = [
     chip: "RAG Chatbot"
   },
   {
+    title: "Clinic Assistant — Multi-Agent Doctor Appointment System",
+    category: ["AI", "GenAI", "Healthcare"],
+    description:
+      "A multi-agent AI system for doctor appointment booking: specialized agents built with LangGraph and CrewAI coordinate the appointment workflow for clinics, from patient requests to confirmed bookings.",
+    tech: ["Python", "LangGraph", "CrewAI", "LLMs", "AI Agents"],
+    demo: "",
+    github: "",
+    style: "dark",
+    chip: "GenAI · Agents"
+  },
+  {
     title: "TAIF — Multimodal Autism Screening",
     category: ["AI", "Healthcare", "Computer Vision"],
     description:
