@@ -14,16 +14,56 @@ document.querySelectorAll(".nav-links a").forEach((link) => {
 
 const skills = [
   ["Python", "Core language for AI, automation, and backend logic.", "PY"],
+  ["LLMs & Generative AI", "Chatbots, assistants, and LLM-powered applications.", "AI"],
+  ["RAG Systems", "Document loaders, chunking, embeddings, vector search, and grounded answers.", "RAG"],
+  ["AI Agents", "Single and multi-agent workflows with LangGraph and CrewAI.", "AG"],
+  ["LangChain", "Chains, retrievers, tools, and LLM application pipelines.", "LC"],
   ["Machine Learning", "Classification, evaluation, model pipelines, and deployment.", "ML"],
-  ["Deep Learning", "Neural networks, TensorFlow, PyTorch, and image models.", "DL"],
-  ["Computer Vision", "Image processing, object detection, and visual assessment.", "CV"],
-  ["NLP", "Text analysis, sentiment analysis, and document question answering.", "NLP"],
+  ["Deep Learning", "Neural networks with PyTorch and TensorFlow.", "DL"],
+  ["Computer Vision", "Object detection with YOLO and OpenCV, image and face analysis.", "CV"],
+  ["NLP", "Sentiment analysis, text classification, and document question answering.", "NLP"],
+  ["Hugging Face", "Transformers, pre-trained models, and fine-tuning workflows.", "HF"],
+  ["Vector Databases", "FAISS and Pinecone for semantic search and retrieval.", "VD"],
+  ["FastAPI", "Production APIs and backends for AI applications.", "API"],
   ["Streamlit", "Fast interactive AI applications and dashboards.", "ST"],
-  ["LangChain", "RAG pipelines, document loaders, chunks, and retrieval.", "LC"],
+  ["Docker & CI/CD", "Docker, Jenkins pipelines, LangSmith tracing, and cloud deployment.", "CI"],
   ["Git & GitHub", "Project organization, version control, and portfolio publishing.", "GH"]
 ];
 
 const projects = [
+  {
+    title: "Servio — Enterprise AI Platform",
+    category: ["AI", "GenAI", "NLP"],
+    description:
+      "An enterprise AI platform combining multi-agent systems, evidence-grounded RAG, intelligent analysis, and safe workflow automation to support reliable decision-making and verifiable actions.",
+    tech: ["Python", "Multi-Agent Systems", "RAG", "LLMs", "Workflow Automation"],
+    demo: "",
+    github: "https://github.com/moamedmer68-commits/Servio",
+    style: "dark",
+    chip: "GenAI · Agents"
+  },
+  {
+    title: "AI-Powered Multi-Document RAG Platform",
+    category: ["AI", "GenAI", "NLP"],
+    description:
+      "A production RAG platform to chat with multiple documents: FastAPI backend, LangChain pipelines, FAISS vector search, Gemini and Groq models, LangSmith tracing, and Docker/Jenkins CI/CD deployed on AWS ECS Fargate.",
+    tech: ["FastAPI", "LangChain", "FAISS", "Gemini", "Groq", "LangSmith", "Docker", "Jenkins"],
+    demo: "",
+    github: "https://github.com/moamedmer68-commits/AI-Powered-Multi-Document-RAG-Platform-LLMOps",
+    style: "alt",
+    chip: "RAG · LLMOps"
+  },
+  {
+    title: "RAG Assistant — Document Chatbot",
+    category: ["AI", "GenAI", "NLP"],
+    description:
+      "An intelligent Retrieval-Augmented Generation assistant built with Streamlit, LangChain, OpenAI, and FAISS. Users can upload documents and chat with them using semantic search and LLM-generated answers.",
+    tech: ["Streamlit", "LangChain", "OpenAI", "FAISS", "PDF", "CSV", "DOCX", "XLSX"],
+    demo: "",
+    github: "https://github.com/moamedmer68-commits/Document-Chatbot-using-RAG-LangChain-FAISS-and-OpenAI",
+    style: "",
+    chip: "RAG Chatbot"
+  },
   {
     title: "TAIF — Multimodal Autism Screening",
     category: ["AI", "Healthcare", "Computer Vision"],
@@ -31,26 +71,15 @@ const projects = [
       "A bilingual Arabic/English AI-guided child development and autism screening support system using questionnaire inputs, visual assessment, speech/text analysis, PDF reporting, and developmental support tools.",
     tech: ["Python", "Streamlit", "TensorFlow", "Scikit-learn", "AssemblyAI", "PDF Reports"],
     demo: "",
-    github: "",
-    style: "dark",
+    github: "https://github.com/moamedmer68-commits/TAIF-Autism-Screening-System",
+    style: "alt",
     chip: "Healthcare AI"
   },
   {
-    title: "RAG Assistant",
-    category: ["AI", "NLP"],
-    description:
-      "An intelligent Retrieval-Augmented Generation assistant built with Streamlit, LangChain, OpenAI, and FAISS. Users can upload documents and chat with them using semantic search and LLM-generated answers.",
-    tech: ["Streamlit", "LangChain", "OpenAI", "FAISS", "PDF", "CSV", "DOCX", "XLSX"],
-    demo: "",
-    github: "",
-    style: "alt",
-    chip: "RAG"
-  },
-  {
     title: "ChatBot Application",
-    category: ["AI", "NLP"],
+    category: ["AI", "GenAI", "NLP"],
     description:
-      "Interactive chat application built with Streamlit and Google's Gemini 2.5, enabling smooth AI-powered conversations through a simple user interface.",
+      "Interactive chat application built with Streamlit and Google's Gemini, enabling smooth AI-powered conversations through a simple user interface.",
     tech: ["Streamlit", "Gemini", "Python"],
     demo: "https://chatbotapplication-jyekdqiu9j3so4rmqioqhr.streamlit.app/",
     github: "https://github.com/moamedmer68-commits/ChatBot_Application",
